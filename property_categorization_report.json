@@ -1,0 +1,846 @@
+{
+  "timestamp": "2025-06-10T16:50:00",
+  "summary": {
+    "total_categories": 11,
+    "total_properties_analyzed": 50,
+    "immediate_action_needed": 2,
+    "high_priority": 0,
+    "medium_priority": 4,
+    "review_needed": 31,
+    "keep_essential": 13
+  },
+  "categories": {
+    "essential_tracking": {
+      "description": "Propriedades essenciais para funcionamento do RudderStack",
+      "action": "MANTER",
+      "priority": "ESSENCIAL",
+      "stats": {
+        "count": 10,
+        "total_occurrences": 8886
+      },
+      "properties": [
+        {
+          "property": "messageId",
+          "occurrences": 1000,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        },
+        {
+          "property": "rudderId",
+          "occurrences": 1000,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        },
+        {
+          "property": "type",
+          "occurrences": 1000,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        },
+        {
+          "property": "event",
+          "occurrences": 992,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        },
+        {
+          "property": "channel",
+          "occurrences": 970,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        },
+        {
+          "property": "userId",
+          "occurrences": 967,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        },
+        {
+          "property": "anonymousId",
+          "occurrences": 924,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        },
+        {
+          "property": "context.traits.userId",
+          "occurrences": 683,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        },
+        {
+          "property": "context.device.type",
+          "occurrences": 676,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        },
+        {
+          "property": "context.traits.anonymousId",
+          "occurrences": 674,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Propriedades essenciais para funcionamento do RudderStack"
+        }
+      ]
+    },
+    "context_app": {
+      "description": "Informações sobre o aplicativo",
+      "action": "AVALIAR",
+      "priority": "ÚTIL",
+      "stats": {
+        "count": 6,
+        "total_occurrences": 5394
+      },
+      "properties": [
+        {
+          "property": "context.library.name",
+          "occurrences": 998,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre o aplicativo"
+        },
+        {
+          "property": "context.library.version",
+          "occurrences": 990,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre o aplicativo"
+        },
+        {
+          "property": "context.app.namespace",
+          "occurrences": 911,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre o aplicativo"
+        },
+        {
+          "property": "context.app.name",
+          "occurrences": 907,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre o aplicativo"
+        },
+        {
+          "property": "context.app.version",
+          "occurrences": 907,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre o aplicativo"
+        },
+        {
+          "property": "context.app.build",
+          "occurrences": 681,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre o aplicativo"
+        }
+      ]
+    },
+    "integration_data": {
+      "description": "Dados específicos de integrações",
+      "action": "AVALIAR",
+      "priority": "ÚTIL",
+      "stats": {
+        "count": 1,
+        "total_occurrences": 974
+      },
+      "properties": [
+        {
+          "property": "integrations.All",
+          "occurrences": 974,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Dados específicos de integrações"
+        }
+      ]
+    },
+    "essential_timestamps": {
+      "description": "Timestamps essenciais para análise temporal",
+      "action": "MANTER",
+      "priority": "ESSENCIAL",
+      "stats": {
+        "count": 3,
+        "total_occurrences": 2647
+      },
+      "properties": [
+        {
+          "property": "sentAt",
+          "occurrences": 969,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Timestamps essenciais para análise temporal"
+        },
+        {
+          "property": "originalTimestamp",
+          "occurrences": 917,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Timestamps essenciais para análise temporal"
+        },
+        {
+          "property": "receivedAt",
+          "occurrences": 761,
+          "action": "MANTER",
+          "priority": "ESSENCIAL",
+          "description": "Timestamps essenciais para análise temporal"
+        }
+      ]
+    },
+    "context_device": {
+      "description": "Informações sobre dispositivo e sistema",
+      "action": "AVALIAR",
+      "priority": "ÚTIL",
+      "stats": {
+        "count": 14,
+        "total_occurrences": 10223
+      },
+      "properties": [
+        {
+          "property": "context.os.name",
+          "occurrences": 911,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.os.version",
+          "occurrences": 907,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.screen.density",
+          "occurrences": 904,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.screen.height",
+          "occurrences": 904,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.screen.width",
+          "occurrences": 904,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.network.wifi",
+          "occurrences": 682,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.device.id",
+          "occurrences": 676,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.device.manufacturer",
+          "occurrences": 676,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.device.model",
+          "occurrences": 676,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.device.name",
+          "occurrences": 676,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.network.cellular",
+          "occurrences": 676,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.network.carrier",
+          "occurrences": 655,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.device.adTrackingEnabled",
+          "occurrences": 508,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        },
+        {
+          "property": "context.device.advertisingId",
+          "occurrences": 468,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações sobre dispositivo e sistema"
+        }
+      ]
+    },
+    "context_location": {
+      "description": "Informações de localização e idioma",
+      "action": "AVALIAR",
+      "priority": "ÚTIL",
+      "stats": {
+        "count": 2,
+        "total_occurrences": 1814
+      },
+      "properties": [
+        {
+          "property": "context.timezone",
+          "occurrences": 910,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações de localização e idioma"
+        },
+        {
+          "property": "context.locale",
+          "occurrences": 904,
+          "action": "AVALIAR",
+          "priority": "ÚTIL",
+          "description": "Informações de localização e idioma"
+        }
+      ]
+    },
+    "uncategorized": {
+      "description": "",
+      "action": "",
+      "priority": "",
+      "stats": {
+        "count": 2,
+        "total_occurrences": 1560
+      },
+      "properties": [
+        {
+          "property": "context.userAgent",
+          "occurrences": 799,
+          "action": "REVISAR_MANUAL",
+          "priority": "BAIXO",
+          "description": "Propriedade não categorizada"
+        },
+        {
+          "property": "request_ip",
+          "occurrences": 761,
+          "action": "REVISAR_MANUAL",
+          "priority": "BAIXO",
+          "description": "Propriedade não categorizada"
+        }
+      ]
+    },
+    "personal_data_critical": {
+      "description": "Dados pessoais sensíveis (LGPD/GDPR)",
+      "action": "REMOVER_URGENTE",
+      "priority": "CRÍTICO",
+      "stats": {
+        "count": 2,
+        "total_occurrences": 1247
+      },
+      "properties": [
+        {
+          "property": "context.traits.email",
+          "occurrences": 706,
+          "action": "REMOVER_URGENTE",
+          "priority": "CRÍTICO",
+          "description": "Dados pessoais sensíveis (LGPD/GDPR)"
+        },
+        {
+          "property": "context.traits.phone",
+          "occurrences": 541,
+          "action": "REMOVER_URGENTE",
+          "priority": "CRÍTICO",
+          "description": "Dados pessoais sensíveis (LGPD/GDPR)"
+        }
+      ]
+    },
+    "technical_internal": {
+      "description": "IDs internos e dados técnicos desnecessários",
+      "action": "REMOVER_OPCIONAL",
+      "priority": "MÉDIO",
+      "stats": {
+        "count": 2,
+        "total_occurrences": 1155
+      },
+      "properties": [
+        {
+          "property": "context.traits.custom_session_id",
+          "occurrences": 622,
+          "action": "REMOVER_OPCIONAL",
+          "priority": "MÉDIO",
+          "description": "IDs internos e dados técnicos desnecessários"
+        },
+        {
+          "property": "context.traits.access_id",
+          "occurrences": 533,
+          "action": "REMOVER_OPCIONAL",
+          "priority": "MÉDIO",
+          "description": "IDs internos e dados técnicos desnecessários"
+        }
+      ]
+    },
+    "business_data": {
+      "description": "Dados de negócio importantes",
+      "action": "AVALIAR_NEGÓCIO",
+      "priority": "IMPORTANTE",
+      "stats": {
+        "count": 6,
+        "total_occurrences": 2994
+      },
+      "properties": [
+        {
+          "property": "context.traits.id",
+          "occurrences": 549,
+          "action": "AVALIAR_NEGÓCIO",
+          "priority": "IMPORTANTE",
+          "description": "Dados de negócio importantes"
+        },
+        {
+          "property": "context.traits.apps_flyer_uid",
+          "occurrences": 541,
+          "action": "AVALIAR_NEGÓCIO",
+          "priority": "IMPORTANTE",
+          "description": "Dados de negócio importantes"
+        },
+        {
+          "property": "context.traits.role",
+          "occurrences": 530,
+          "action": "AVALIAR_NEGÓCIO",
+          "priority": "IMPORTANTE",
+          "description": "Dados de negócio importantes"
+        },
+        {
+          "property": "context.traits.cardtokenization_hardware_nfc",
+          "occurrences": 466,
+          "action": "AVALIAR_NEGÓCIO",
+          "priority": "IMPORTANTE",
+          "description": "Dados de negócio importantes"
+        },
+        {
+          "property": "context.traits.push_notifications_enabled",
+          "occurrences": 466,
+          "action": "AVALIAR_NEGÓCIO",
+          "priority": "IMPORTANTE",
+          "description": "Dados de negócio importantes"
+        },
+        {
+          "property": "context.traits.infinite_tap_version",
+          "occurrences": 442,
+          "action": "AVALIAR_NEGÓCIO",
+          "priority": "IMPORTANTE",
+          "description": "Dados de negócio importantes"
+        }
+      ]
+    },
+    "technical_debug": {
+      "description": "Dados de debug e desenvolvimento",
+      "action": "REMOVER_OPCIONAL",
+      "priority": "MÉDIO",
+      "stats": {
+        "count": 2,
+        "total_occurrences": 1000
+      },
+      "properties": [
+        {
+          "property": "context.traits.infinitetap_device_hardware",
+          "occurrences": 534,
+          "action": "REMOVER_OPCIONAL",
+          "priority": "MÉDIO",
+          "description": "Dados de debug e desenvolvimento"
+        },
+        {
+          "property": "context.traits.debug_session_enabled",
+          "occurrences": 466,
+          "action": "REMOVER_OPCIONAL",
+          "priority": "MÉDIO",
+          "description": "Dados de debug e desenvolvimento"
+        }
+      ]
+    }
+  },
+  "recommendations": {
+    "immediate_action": [
+      {
+        "property": "context.traits.email",
+        "occurrences": 706,
+        "action": "REMOVER_URGENTE",
+        "priority": "CRÍTICO",
+        "description": "Dados pessoais sensíveis (LGPD/GDPR)"
+      },
+      {
+        "property": "context.traits.phone",
+        "occurrences": 541,
+        "action": "REMOVER_URGENTE",
+        "priority": "CRÍTICO",
+        "description": "Dados pessoais sensíveis (LGPD/GDPR)"
+      }
+    ],
+    "high_priority": [],
+    "medium_priority": [
+      {
+        "property": "context.traits.custom_session_id",
+        "occurrences": 622,
+        "action": "REMOVER_OPCIONAL",
+        "priority": "MÉDIO",
+        "description": "IDs internos e dados técnicos desnecessários"
+      },
+      {
+        "property": "context.traits.access_id",
+        "occurrences": 533,
+        "action": "REMOVER_OPCIONAL",
+        "priority": "MÉDIO",
+        "description": "IDs internos e dados técnicos desnecessários"
+      },
+      {
+        "property": "context.traits.infinitetap_device_hardware",
+        "occurrences": 534,
+        "action": "REMOVER_OPCIONAL",
+        "priority": "MÉDIO",
+        "description": "Dados de debug e desenvolvimento"
+      },
+      {
+        "property": "context.traits.debug_session_enabled",
+        "occurrences": 466,
+        "action": "REMOVER_OPCIONAL",
+        "priority": "MÉDIO",
+        "description": "Dados de debug e desenvolvimento"
+      }
+    ],
+    "review_needed": [
+      {
+        "property": "context.library.name",
+        "occurrences": 998,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre o aplicativo"
+      },
+      {
+        "property": "context.library.version",
+        "occurrences": 990,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre o aplicativo"
+      },
+      {
+        "property": "context.app.namespace",
+        "occurrences": 911,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre o aplicativo"
+      },
+      {
+        "property": "context.app.name",
+        "occurrences": 907,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre o aplicativo"
+      },
+      {
+        "property": "context.app.version",
+        "occurrences": 907,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre o aplicativo"
+      },
+      {
+        "property": "context.app.build",
+        "occurrences": 681,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre o aplicativo"
+      },
+      {
+        "property": "integrations.All",
+        "occurrences": 974,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Dados específicos de integrações"
+      },
+      {
+        "property": "context.os.name",
+        "occurrences": 911,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.os.version",
+        "occurrences": 907,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.screen.density",
+        "occurrences": 904,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.screen.height",
+        "occurrences": 904,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.screen.width",
+        "occurrences": 904,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.network.wifi",
+        "occurrences": 682,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.device.id",
+        "occurrences": 676,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.device.manufacturer",
+        "occurrences": 676,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.device.model",
+        "occurrences": 676,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.device.name",
+        "occurrences": 676,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.network.cellular",
+        "occurrences": 676,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.network.carrier",
+        "occurrences": 655,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.device.adTrackingEnabled",
+        "occurrences": 508,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.device.advertisingId",
+        "occurrences": 468,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações sobre dispositivo e sistema"
+      },
+      {
+        "property": "context.timezone",
+        "occurrences": 910,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações de localização e idioma"
+      },
+      {
+        "property": "context.locale",
+        "occurrences": 904,
+        "action": "AVALIAR",
+        "priority": "ÚTIL",
+        "description": "Informações de localização e idioma"
+      },
+      {
+        "property": "context.userAgent",
+        "occurrences": 799,
+        "action": "REVISAR_MANUAL",
+        "priority": "BAIXO",
+        "description": "Propriedade não categorizada"
+      },
+      {
+        "property": "request_ip",
+        "occurrences": 761,
+        "action": "REVISAR_MANUAL",
+        "priority": "BAIXO",
+        "description": "Propriedade não categorizada"
+      },
+      {
+        "property": "context.traits.id",
+        "occurrences": 549,
+        "action": "AVALIAR_NEGÓCIO",
+        "priority": "IMPORTANTE",
+        "description": "Dados de negócio importantes"
+      },
+      {
+        "property": "context.traits.apps_flyer_uid",
+        "occurrences": 541,
+        "action": "AVALIAR_NEGÓCIO",
+        "priority": "IMPORTANTE",
+        "description": "Dados de negócio importantes"
+      },
+      {
+        "property": "context.traits.role",
+        "occurrences": 530,
+        "action": "AVALIAR_NEGÓCIO",
+        "priority": "IMPORTANTE",
+        "description": "Dados de negócio importantes"
+      },
+      {
+        "property": "context.traits.cardtokenization_hardware_nfc",
+        "occurrences": 466,
+        "action": "AVALIAR_NEGÓCIO",
+        "priority": "IMPORTANTE",
+        "description": "Dados de negócio importantes"
+      },
+      {
+        "property": "context.traits.push_notifications_enabled",
+        "occurrences": 466,
+        "action": "AVALIAR_NEGÓCIO",
+        "priority": "IMPORTANTE",
+        "description": "Dados de negócio importantes"
+      },
+      {
+        "property": "context.traits.infinite_tap_version",
+        "occurrences": 442,
+        "action": "AVALIAR_NEGÓCIO",
+        "priority": "IMPORTANTE",
+        "description": "Dados de negócio importantes"
+      }
+    ],
+    "keep_essential": [
+      {
+        "property": "messageId",
+        "occurrences": 1000,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "rudderId",
+        "occurrences": 1000,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "type",
+        "occurrences": 1000,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "event",
+        "occurrences": 992,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "channel",
+        "occurrences": 970,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "userId",
+        "occurrences": 967,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "anonymousId",
+        "occurrences": 924,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "context.traits.userId",
+        "occurrences": 683,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "context.device.type",
+        "occurrences": 676,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "context.traits.anonymousId",
+        "occurrences": 674,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Propriedades essenciais para funcionamento do RudderStack"
+      },
+      {
+        "property": "sentAt",
+        "occurrences": 969,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Timestamps essenciais para análise temporal"
+      },
+      {
+        "property": "originalTimestamp",
+        "occurrences": 917,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Timestamps essenciais para análise temporal"
+      },
+      {
+        "property": "receivedAt",
+        "occurrences": 761,
+        "action": "MANTER",
+        "priority": "ESSENCIAL",
+        "description": "Timestamps essenciais para análise temporal"
+      }
+    ]
+  }
+}
