@@ -2,9 +2,10 @@ import json
 import re
 import requests
 from typing import List, Dict
+import os
 
 # Configuration
-API_TOKEN = "SUA_API_KEY"
+API_TOKEN = os.getenv("RUDDERSTACK_API_KEY")
 BASE_URL = "https://api.rudderstack.com/v2"
 HEADERS = {
     "Authorization": f"Bearer {API_TOKEN}",
